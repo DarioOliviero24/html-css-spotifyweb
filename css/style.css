@@ -18,13 +18,106 @@ html a {
 html img {
     max-width: 100%;
 }
+.color-white{
+   color: white;
+   
+    
 
-/*HEADER*/
-
-
+}
+.color-grey{
+    color: grey;
+    
+    
+}
+.Size{
+    font-size: 2rem;
+}
 
 /*MAIN*/
 
+/*BLACK AREA*/
+.Black-area{
+    background-color: black;
+    height: calc(100vh - 100px);
+    width: 250px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    
+}
 
 
 /*FOOTER*/
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Bg-grey{
+    background-color: #282828;
+    color: white;
+}
+.barra {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 60px;
+}
+.Margin-Left{
+    margin-left: 20px;
+}
+.Margin-right{
+    margin-right: 20px;
+}
+.Img-co-sang{
+    height: 60px;
+    width: 60px;
+    display: inline;
+    
+}
+.Img-co-sang:hover{
+    opacity: 1;
+}
+.Left-fot {
+    display: flex;
+    padding-top: 17px;
+}
+.h3-fot{
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+.p-fot{
+    
+    color: grey;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.H3-p{
+    display: flex;
+    flex-direction: column;
+    
+}
+.i-fot{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: grey;
+}
+#shuffle{
+    margin-left: -20px;
+}
+#backward {
+    margin-left: 30px;
+}
+#circle {
+    margin-left: 20px;
+}
+#forward {
+    margin-left: 30px;
+}
+#rotate {
+    margin-left: 20px;
+}
