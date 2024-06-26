@@ -40,11 +40,44 @@ html img {
     background-color: black;
     height: calc(100vh - 100px);
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: white;
+    
 }
 .logo{
     width: 200px;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 15px;    
+}
+.Black-list{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.color{
+    color: grey;
+}
+.Black-margin{
+    margin-top: 10px;
+}
+.Black-h3{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.Playlist{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    margin-top: -30px;
+    display: inline-block;
+    
+}
+.Playlist2{
+    color: grey;  
     
 }
 
@@ -79,9 +112,7 @@ html img {
     display: inline;
     
 }
-.Img-co-sang:hover{
-    opacity: 1;
-}
+
 .Left-fot {
     display: flex;
     padding-top: 17px;
@@ -120,4 +151,19 @@ html img {
 }
 #rotate {
     margin-left: 20px;
+}
+#list{
+    margin-left: 20px;
+}
+#desktop{
+    margin-left: 20px;
+}
+#volume{
+    margin-left: 20px;
+}
+.Volume{
+    background-color: white;
+    height: 1px;
+    width: 50px;
+    display: inline;
 }
