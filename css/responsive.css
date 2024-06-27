@@ -1,17 +1,78 @@
-/*DESKTOP*/
-@media screen and (min-width:1100px) {
+/* Desktop Section */
 
+/* SubHuman Desktops */
+@media screen and (max-width:3500px) {
+    .desktop-1-6 {
+        width: calc((100% / 10) - 20px);
+        margin: 0 10px 25px;
+    }
+}
+
+/* Human Desktops */
+@media screen and (max-width:2148px) {
+    .desktop-1-6 {
+        width: calc((100% / 6) - 20px);
+        margin: 0 10px 25px;
+    }
+}
+
+/* Laptop */
+@media screen and (max-width:1100px) {
+
+    .laptop-1-4 {
+        width: calc((100% / 4) - 20px);
+        margin: 0 10px 25px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width:768px) {
+
+    .tablet-1-2 {
+        width: calc((100% / 2) - 20px);
+        margin: 0 10px 25px;
+    }
+
+    :root {
+        --nav-bar-width: 80px;
+    }
+
+    #nav-bar>.container>.big-logo {
+        display: none;
+    }
+
+    #nav-bar>.container>.small-logo {
+        display: block;
+        width: 40px;
+        margin: 0 20px;
+    }
+
+    #nav-bar>.container>.buttons>div>a>.button-desc {
+        display: none;
+    }
+
+    #nav-bar>.container>.playlist {
+        display: none;
+    }
 
 }
 
-/*TABLET*/
-@media screen and (min-width:700px) {
-  
-    
-}
+@media screen and (max-width:500px) {
+    #media-player>.music-volume.flex {
+        display: none;
+    }
 
-/*SMARTPHONE*/
-@media screen and (min-width:600px) {
-            
+    #media-player {
+        justify-content: flex-start;
+        align-items: center;
+    }
 
+    #media-player>.music-desc {
+        width: 200px;
+        margin-right: 5px;
+    }
+
+    #media-player>.music-desc>.desc {
+        padding-right: 0;
+    }
 }
