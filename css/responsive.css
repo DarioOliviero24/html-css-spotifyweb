@@ -1,4 +1,3 @@
-/* Desktop Section */
 
 /* SubHuman Desktops */
 @media screen and (max-width:3500px) {
@@ -32,7 +31,12 @@
         width: calc((100% / 2) - 20px);
         margin: 0 10px 25px;
     }
-
+    #Middle{
+        display: none;
+    }
+        #bottom {
+            display: none;
+        }
     :root {
         --nav-bar-width: 80px;
     }
